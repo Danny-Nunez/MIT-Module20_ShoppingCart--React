@@ -238,11 +238,12 @@ const products = [
             }}
           >
             <input
+              className="input-control"
               type="text"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
             />
-            <button type="submit">ReStock Products</button>
+            <button type="submit" class="btn btn-secondary">ReStock Products</button>
           </form>
         </Row>
         <Row>

@@ -83,3 +83,14 @@
     border: 1px solid #fff;
     cursor: pointer;
 }
+.checkout-btn:hover {
+    background-color: rgba(255, 0, 0, 0.881);
+    cursor: pointer;
+}
+.btn-secondary {
+    margin-left: 5px;
+}
+.input-control {
+    width: 26%;
+    margin: auto;
+}
