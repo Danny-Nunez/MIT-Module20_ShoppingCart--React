@@ -1,4 +1,4 @@
-#Mit Module 20 
+# Mit Module 20 React Shopping Cart
 
 In Module 20: Testing, you’ll learn how to build, deploy, and test a React application. You’ll deploy a static website with Amazon Web Services. You’ll learn how to use GraphQL to specify the API data that your front end receives. Finally, you’ll test user events and dependencies with Jest. It is important to practice these new skills as you finalize your Front-End Banking Application GitHub Portfolio project, which is due at the end of the portfolio project module.
 
