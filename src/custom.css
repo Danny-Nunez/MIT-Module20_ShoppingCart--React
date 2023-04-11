@@ -9,11 +9,14 @@
     margin: auto;
     margin-top: 20px;
     display: flex;
-    flex-direction: column; 
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .header {
     padding-bottom: 20px;
-    width:1024px;
+    width: 100%;
+    margin: auto;
 }
 .products {
     padding: 15px;
@@ -91,6 +94,16 @@
     margin-left: 5px;
 }
 .input-control {
-    width: 26%;
+    width: 30%;
     margin: auto;
 }
+@media screen and (min-width: 480px) {
+    Container { 
+        width: 480px;
+        flex-direction: row;
+    }
+    .input-control {
+        width: 30%;
+    }
+    
+  }

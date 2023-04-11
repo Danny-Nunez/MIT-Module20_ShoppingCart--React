@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  
 }
 
 .App-logo {
@@ -37,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media screen and (min-width: 480px) {
+  App { 
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      
+  }
+
 }
